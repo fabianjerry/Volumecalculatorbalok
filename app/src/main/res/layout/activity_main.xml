@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.guefabian.volumecalculator.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Volume Balok"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/balok"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panjang Balok"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/panjangbalok"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="panjang"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lebar Balok"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:id="@+id/lebarbalok"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="lebar"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi Balok"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:id="@+id/tinggibalok"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="tinggi"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/hitung"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:text="hitung" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" "
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
